@@ -2,7 +2,7 @@ FROM eclipse-temurin:25-jre
 
 WORKDIR /app
 
-COPY target/*.jar app.jar
+COPY application/target/thingsboard-4.4.0-SNAPSHOT-boot.jar
 
 EXPOSE 8081
 
